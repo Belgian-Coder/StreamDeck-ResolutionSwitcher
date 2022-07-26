@@ -1,0 +1,36 @@
+{
+  "Author": "Belgian Coder",
+  "Name": "Resolution switcher",
+  "Description": "Changes resolution and/or DPI for primary screen.",
+  "Icon": "Images/plugin",
+  "URL": "https://github.com/Belgian-Coder/StreamDeck-ResolutionSwitcher",
+  "Version": "1.1",
+  "CodePathWin": "streamdeck-resolutionswitcher.exe",
+  "OS": [
+    {
+      "Platform": "windows",
+      "MinimumVersion": "10"
+    }
+  ],
+  "SDKVersion": 2,
+  "Software": {
+    "MinimumVersion": "4.9"
+  },
+  "Actions": [
+    {
+      "Icon": "Images/action",
+      "Name": "Change resolution",
+      "States": [
+        {
+          "Image": "Images/plugin",
+          "TitleAlignment": "middle",
+          "FontSize": "9"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Changes resolution and/or DPI for primary screen.",
+      "UUID": "be.belgiancoder.resolutionswitcher",
+      "PropertyInspectorPath": "PropertyInspector/PluginActionPI.html"
+    }
+  ]
+}
